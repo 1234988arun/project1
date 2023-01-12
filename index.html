@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     /> -->
+    <!-- amimate.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,20 +51,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -86,7 +88,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <button class="nav_btn">Getstarted</button>
@@ -108,8 +110,8 @@
     <!-- bannersectionendsehere -->
     <!-- header-sectionendsshere -->
     <!-- about-sectionstarthere -->
-    <div class="container">
-      <section class="about-section">
+    <div class="container" id="about" data-aos="slide-up">
+      <section class="about-section animate__animated animate__bounce">
         <h1 class="text-center">About Us</h1>
         <p class="about-p">
           Magnum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
@@ -149,9 +151,9 @@
       </section>
       <!-- about-sectionendshere -->
 
-      <section class="service-section">
+      <section class="service-section" id="services" data-aos="zoom-in">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-in">
             <h3 class="service-section-title">Services</h3>
             <p class="mt-4 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
@@ -219,23 +221,23 @@
     </div>
 
     <section class="call-to-action-section">
-      <h3 class="call-to-action-title">Callto action</h3>
+      <h3 class="call-to-action-title" data-aos="slide-right">Callto action</h3>
 
       <div class="row">
         <div class="col-md-10">
-          <p class="call-to-action-p">
+          <p class="call-to-action-p"  data-aos="slide-right">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
             sapiente libero fugiat quam vel? <br />
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
         <div class="col-md-2 d-flex justify-content-center">
-          <button class="call-to-action-btn ">Call to action</button>
+          <button class="call-to-action-btn "  data-aos="slide-right">Call to action</button>
         </div>
       </div>
     </section>
 
-    <section class="section-feature-section">
+    <section class="section-feature-section" id="feature"  data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center">
@@ -298,7 +300,7 @@
         </div>
       </div>
     </section>
-    <section class="counter-section">
+    <section class="counter-section"  data-aos="zoom-out-up" >
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -333,7 +335,7 @@
         </div>
       </div>
     </section>
-    <section class="client-section">
+    <section class="client-section"  data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -396,7 +398,7 @@
       </div>
     </section>
     <!-- Portfolio section starts here -->
-    <section class="porftolio-section">
+    <section class="porftolio-section" id="portfolio">
       <div class="row">
         <div class="col-md-4">
           <div class="row img-box">
@@ -492,7 +494,7 @@
       <!-- rowclosehre -->
     </section>
     <br /><br /><br />
-    <section class="pricing-section">
+    <section class="pricing-section" id="pricing">
       <div class="container">
         <h1>pricing</h1>
         <p>
@@ -501,7 +503,7 @@
         </p>
 
         <div class="row border d-flex justify-content-between">
-          <div class="col-md-3 border pricing-section">
+          <div class="col-md-3 border pricing-section"  data-aos="slide-right">
             <h3 class="pricing-section-title">Free</h3>
             <h4><sup>$ </sup>0 <span> / month</span></h4>
             <ul class="pricing-section-tagline">
@@ -513,7 +515,7 @@
             </ul>
             <button class="pricing-section-btn">BuyNow</button>
           </div>
-          <div class="col-md-3 border pricing-section">
+          <div class="col-md-3 border pricing-section" data-aos="slide-right">
             <h3 class="pricing-section-title">Free</h3>
             <h4><sup>$ </sup>0 <span> / month</span></h4>
             <ul class="pricing-section-tagline">
@@ -525,7 +527,7 @@
             </ul>
             <button class="pricing-section-btn">BuyNow</button>
           </div>
-          <div class="col-md-3 border pricing-section">
+          <div class="col-md-3 border pricing-section" data-aos="slide-right">
             <h3 class="pricing-section-title">Free</h3>
             <h4><sup>$ </sup>0 <span> / month</span></h4>
             <ul class="pricing-section-tagline">
@@ -542,7 +544,7 @@
     </section>
     <!-- Portfolio section ends here -->
     <!-- faq section ends here -->
-    <div class="container faq-section">
+    <div class="container faq-section" data-aos="zoom-in">
       <div class="row">
         <div class="col-md-6 pt-5 pb-5">
           <h1>Frequently Asked Questions</h1>
@@ -643,7 +645,7 @@
       </div>
     </div>
     <!-- faq section ends here -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact" data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <h1>Contact</h1>
@@ -668,7 +670,7 @@
         </div>
       </div>
     </section>
-    <section class="form-section ">
+    <section class="form-section " data-aos="zoom-in">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -735,7 +737,7 @@
               </div>
            </div>
     </section>
-<section class="footer-section">
+<section class="footer-section" data-aos="slide-right">
   <div class="row bg-dark text-white ">
     <div class="col-md-12  text-center">
 <h1>kinghtone</h1>
@@ -762,5 +764,10 @@
       crossorigin="anonymous"
     ></script> -->
     <script src="js\bootstrap.bundle.js"></script>
+    <!-- animatejs -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
